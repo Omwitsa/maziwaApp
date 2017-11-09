@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/main"
+	android:background="@drawable/milk">
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="296dp"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/zoss" 
+	   />
+	<Button android:id="@+id/btnSetting" android:text="Settings"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+	<Button android:id="@+id/btnSearchDevice" android:text="Search Device"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+	<Button android:id="@+id/btnMonitor" android:text="Monitor"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+	<Button android:id="@+id/btnAbout" android:text="About"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+	<Button android:id="@+id/btnExit" android:text="Exit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+
+	
+
+</LinearLayout>

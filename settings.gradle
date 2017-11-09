@@ -1,0 +1,2 @@
+include ':app', ':library', ':mylibrary', ':mylibrary2', ':apache-commons-lang'
+include ':app:libs'

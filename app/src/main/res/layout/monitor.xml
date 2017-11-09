@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/widget44"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="10dip"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+
+<LinearLayout
+    android:id="@+id/widget55"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/widget56"
+        android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+   			android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/sTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:visibility="gone" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical"
+            android:textSize="45sp" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/widget64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supplier No" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/sno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="34sp" >
+
+        </EditText>
+
+         <TextView
+             android:id="@+id/conType"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="BranchName" >
+
+        </TextView>
+        <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/container_arrays"
+        android:prompt="@string/container_prompt" />
+       
+		
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/back"
+            android:text="Send" >
+        </Button>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connect" />
+    </TableLayout>
+
+</LinearLayout>
+
+
+
+</ScrollView>
